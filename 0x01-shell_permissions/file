@@ -1,0 +1,8 @@
+echo "enter the name"
+read var
+echo "#!/bin/bash" > $var
+
+chmod +x $var
+
+vi $var
+
